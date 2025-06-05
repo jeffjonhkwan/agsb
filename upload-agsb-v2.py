@@ -31,8 +31,8 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "jeffjonhkwan"         # 用户名
-UUID = "f0d87833-4f1f-4928-aa6e-b9b6dc18938d"                     # UUID，留空则自动生成
+USER_NAME = "jeff"         # 用户名
+UUID = ""                     # UUID，留空则自动生成
 PORT = 45612                   # Vmess端口，留空或0则自动生成
 DOMAIN = "gank.dns-dynamic.net"                   # 域名，留空则自动获取
 CF_TOKEN = "eyJhIjoiYjY3YTBkMGUxMzg0NDdkMTQ2MDY1ZjcwNGY4YjZhMDkiLCJ0IjoiNTJjZDg3N2QtMDJjOC00N2JjLWEzYzEtNTg2OTc4OGI5NDE0IiwicyI6Ik9XVm1PRGs1TW1JdE1HRmpaUzAwTW1JNUxUazVOR0V0TXpOak9XSmpPR1UxWXpKaCJ9"                 # Cloudflare Token，留空则用Quick Tunnel
